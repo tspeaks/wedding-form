@@ -1,0 +1,88 @@
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #E8C124;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+	height: 50px;
+}
+
+h1 {
+	font-family: 'Balthazar', serif;
+	color: #48484F;
+	text-align: center;
+}
+
+form {
+	font-family: "Copperplate Gothic Light", sans-serif;
+}
+
+p {
+	font-family: "Copperplate Gothic Light", sans-serif;
+	display: inline-block;
+}
+
+
+
+input {
+	font-family: "Copperplate Gothic Light", sans-serif;
+	color: #48484F;
+}
+
+#wrapper {
+    border-left: 1px ridge #E8C124;
+    border-right: 1px ridge #E8C124;
+    border-bottom: 1px ridge #E8C124;
+    position: relative;
+    top: -10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 3px #48484F;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-size: 1.1em;
+    background-color: #EFECE7;
+}
+
+#inputs {
+	margin-left: 40%;
+	width: 333px;
+	clear: both;
+}
+
+#inputs input {
+	width: 100%;
+	clear: both;
+}
+
+#options {
+	margin-left: 40%;
+	width: 100%;
+	clear: both;
+}
+
+#menu {
+	margin-left: 5%;
+}
+
+#guests {
+	-webkit-margin-start: 1%;
+}
+
+#yes {
+	margin-left: 5%;
+}
+
+textarea {
+	vertical-align: top;
+	width: 400px;
+	margin-left: 38.5%;
+}
+
+#comments {
+	margin-left:46%;
+}
+
+#submit {
+	margin-left:47%;
+}

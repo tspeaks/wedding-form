@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>RSVP</title>
+		<meta charset="UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' type='text/css' href='weddingform.css'/>
+        <script type="text/javascript" src="script.js"></script>
+
+        
+	</head>
+	<body>
+        <div id="header"><h1>RSVP</h1></div>
+        <div id="wrapper">
+        	<div id="inputs">
+        		<form name="input" action="#" method="post" onsubmit="return validate()">
+        			First name: <input id="firstname" type="text" name="firstname" value="first name"><br/>
+        			Last name: <input type="text" name="lastname" value="last name"><br/>
+        			E-mail: <input type="email" name="email" value="e-mail address"><br/><br/>
+        		</form>
+        	</div>
+        	<div>
+        		<form id="options">
+        			<p id="guests">Is another guest accompanying you?:</p><br/>
+        				<input id="yes" type="radio" name="xtraguest" value="yes">Yes
+        				<input id="no" type="radio" name="xtraguest" vaule="no">No<br/>
+
+        			<div id="menu">	
+        			<p>Menu Selection:</p><br/>
+        				<select name="menu_options">
+        					<option value="select one">Select one of the following</option>
+        					<option value="babyback ribs">Baby Back Ribs</option>
+        					<option value="brisket">Brisket</option>
+        					<option value="bbqchicken">Barbeque Chicken</option>
+        					<option value="japsausage">Jalapeno Sausage</option>
+        					<option value="none">I won't be eating</option>
+        				</select>
+        			</div>
+        		</form>
+        			<p id="comments">Comments?</p><br/>
+        			<textarea name="msg" rows="4"></textarea><br/>
+        			<input id="submit" type="submit" value="Submit">
+        	</div>
+        </div>
+	</body>
+</html>
